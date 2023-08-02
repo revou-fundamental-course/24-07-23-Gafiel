@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Data Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 5px;
+        }
+        
+        .container {
+            display: flex;
+        }
+
+        h3 {
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+
+        p {
+            margin-left: 5px;
+        }
+        
+        form {
+            max-width: 400px;
+            height: 200px;
+            margin-top: auto;
+            margin-left: 5px;
+            padding: 20px;
+            border: 1px solid #070000;
+            border-radius: 5px;
+            background-color: #3a3a3a;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: left;
+            margin-bottom: 10px;
+            width: 400px;
+            height: 25px;
+        }
+        label {
+            flex: 1;
+            margin-right: 10px;
+            color: #ccc;
+        }
+       .label2 {
+            color: #ccc;
+            margin-left: 5px;
+            margin-right: auto;
+        }
+        .box {
+            width: 100px;
+            height: 25px;
+            border: 1px solid #020202;
+            padding: 10px 20px;
+            border-radius: 3px;
+        
+        }
+        input[type="text"],
+        input[type="date"],
+        textarea {
+            flex: 2;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            width: 100%;
+        }
+        .table-container {
+            flex: 1;
+            margin-left: 20px;
+        }
+        
+        .table1 {
+            border-collapse: collapse;
+            display: flex;
+            justify-content: right;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        .table1 th, .table1 td {
+            background-color: antiquewhite;
+            border: 0.5px solid #000000;
+            width: 90px;
+            height: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        input[type=".table1"]:hover {
+            background-color: #5e5e5e;
+        }
+
+        .table2{
+            border-collapse: collapse;
+            display: flex;
+            justify-content: right;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .table2 th, .table2 td {
+            border: 1px solid #000000;
+            width: 110px;
+            height: 25px;
+            text-align: center;
+        }
+        .table2 th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .table2 tr:hover {
+            background-color: #cce5ff;
+        }
+        
+        input[type="radio"] {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            width: 400px;
+            height: 25px;
+            justify-content: center;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <tr>
+            <td>Home</td>
+            <td>My Profile</td>
+            <td>Portofolio</td>
+            <td>Message us</td>
+        </tr>
+    </table>
+    
+    <hr>
+
+    <h3>Form Data Diri</h3>
+    <p>Ini adalah website latihan pertama</p>
+<div class="container">
+    <form action="#" method="post">
+        <div class="form-row">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+
+        <div class="form-row">
+            <label for="tanggal_lahir">Tanggal Lahir:</label>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+        </div>
+
+        <div class="form-row">
+            <label>Jenis Kelamin:</label>
+            <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" required>
+            <label2 for="laki">Laki-laki</label2>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+            <label2 for="perempuan">Perempuan</label2>
+        </div>
+
+        <div class="form-row">
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="5" required></textarea>
+        </div>
+
+        <input type="submit" value="submit">
+    </form>
+    <div class="table-container">
+        <table class="table2">
+            <tr>
+                <th>Nama</th>
+                <th>Tanggal lahir</th>
+                <th>Jenis kelamin</th>
+                <th>Pesan</th>
+                <th>Profile</th>
+                <th>Delete</th>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>800 USD</td>
+                <td>10</td>
+                <td>yyyy</td>
+                <td>yyyyy</td>
+                <td>xxxxx</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>800 USD</td>
+                <td>10</td>
+                <td>yyyy</td>
+                <td>yyyyy</td>
+                <td>xxxxx</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>800 USD</td>
+                <td>10</td>
+                <td>yyyy</td>
+                <td>yyyyy</td>
+                <td>xxxxx</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>800 USD</td>
+                <td>10</td>
+                <td>yyyy</td>
+                <td>yyyyy</td>
+                <td>xxxxx</td>
+            </tr>
+        </table>
+</div>
+
+</body>
+</html>
