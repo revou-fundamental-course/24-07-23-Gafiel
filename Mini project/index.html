@@ -7,7 +7,7 @@
 <body>
     <header>
         <div class="logo">
-        <img src="unnamed.jpg" alt="logo">
+        <img src="image/unnamed.jpg" alt="logo">
         </div>
 
         <nav>
@@ -22,39 +22,81 @@
     <section id="home">
         <h1>TRAVEL AGEN</h1>
         <p>Selamat datang di agen Travel Gafiel</p>
-        <div class="container-home">
+    <div class="container-home">
+        <div class="slider-container">
             <div class="slider">
                 <div class="slide">
-                    <img src="63fdb9789cf09.jpg" alt="Gambar 1">
+                    <img src="image/image1.jpg" alt="Gambar 1">
                     <div class="caption">Liburan jadi menyenangkan dengan menggunakan travel ini</div>
-                    <div class="caption">-ANDRE-</div>
                 </div>
+
                 <div class="slide">
-                    <img src="173-Banda-Neira.jpg" alt="Gambar 2">
+                    <img src="image/image2.jpg" alt="Gambar 2">
                     <div class="caption">Travel dengan harga pelajar membuat liburan semakin menarik</div>
-                    <div class="caption">-DEDI-</div>
                 </div>
-            </div>
-        
-        
-            <div class="right-container">
-                <h2>Contact Us</h2>
-                <div class="contact-form">
-                    <form id="contactForm" onsubmit="return submitForm()">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-            
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-            
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required></textarea>
-            
-                        <input type="submit" value="Submit">
-                    </form>
+
+                <div class="slide">
+                    <img src="image/image3.jpg" alt="Gambar 3">
+                    <div class="caption">Travel dengan harga pelajar membuat liburan semakin menarik</div>
                 </div>
             </div>
         </div>
+
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+                <p>Sales akan menghubungi anda 1x24 jam setelah data anda kami terima</p>
+                    <form id="contactForm" onsubmit="return submitForm()">
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="Your Name">
+            
+                        <label for="email">Email:</label>
+                        <input type="text" placeholder="Your Email">
+
+                        <label for="message">What are you interested in?</label>
+                        <textarea placeholder="Your Message"></textarea>
+            
+                        <button type="submit" value="Submit">Send</button>
+                    </form>
+            </div>
+        </div>
+        
+        <div class="line-container">
+            <div class="line"></div>
+        </div>
+        
+        <div class="judul">
+        <h1>SOME NICE OFFER YOU:</h1>
+        </div>
+
+        <div class="container-offer">
+            <div class="offer">
+                <div class="number-container">
+                    <span class="number">1</span>
+                </div>
+              <div class="offer-details">
+                <h2>All-Inclusive Vacation Packages:</h2>
+                <p>Enjoy an unstructured vacation with full package, including airplane ticket, accommodation, food, and activity in preferred destination.</p>
+              </div>
+            </div>
+            <div class="offer">
+                <div class="number-container">
+                    <span class="number">2</span>
+                </div>
+              <div class="offer-details">
+                <h2>Early Bird Discounts</h2>
+                <p>Book now and get a special discount for reservations well before the departure date.</p>
+              </div>
+            </div>
+            <div class="offer">
+                <div class="number-container">
+                    <span class="number">3</span>
+                </div>
+                <div class="offer-details">
+                  <h2>Group Travel Savings</h2>
+                  <p>Get a special price for large groups traveling together, ideal for a family reunion or a company trip.</p>
+                </div>
+              </div>
+          </div>
     </section>
 
     <section id="paket">
@@ -63,27 +105,27 @@
         </div>
         <div class="destinations-container">
             <div class="destination-card">
-                <img src="thailand.jpg" alt="Thailand">
+                <img src="image/thailand.jpg" alt="Thailand">
                 <h3>Thailand</h3>
                 <p>Traveling to Thailand is the most fun for you. In addition to the various tourist attractions, there are other culinary areas.</p>
                 <p class="price">$500</p>
             </div>
     
             <div class="destination-card">
-                <img src="italy.jpg" alt="Italy">
+                <img src="image/italy.jpg" alt="Italy">
                 <h3>Italy</h3>
                 <p>Experience the rich history and delicious cuisine in Rome, Florence, and Venice.</p>
                 <p class="price">$1500</p>
             </div>
     
             <div class="destination-card">
-                <img src="japan.jpg" alt="Japan">
+                <img src="image/japan.jpg" alt="Japan">
                 <h3>Japan</h3>
                 <p>Discover the vibrant cities of Tokyo and Osaka, and the tranquility of Kyoto.</p>
                 <p class="price">$1000</p>
             </div>
             <div class="destination-card">
-                <img src="korea.jpg" alt="Korea">
+                <img src="image/korea.jpg" alt="Korea">
                 <h3>South Korea</h3>
                 <p>South Korea is a country to visit in the world. Not only that, Korea has so many iconic tourist spots.</p>
                 <p class="price">$1000</p>
@@ -91,14 +133,14 @@
         </div>
         <div class="destinations-container2">
             <div class="destination-card">
-                <img src="belanda.jpg" alt="Belanda">
+                <img src="image/belanda.jpg" alt="Belanda">
                 <h3>Belanda</h3>
                 <p>The Netherlands is a very beautiful and iconic country of this country is windmills and tulips</p>
                 <p class="price">$2000</p>
             </div>
     
             <div class="destination-card">
-                <img src="dubai.jpg" alt="Dubai">
+                <img src="image/dubai.jpg" alt="Dubai">
                 <h3>Dubai</h3>
                 <p>
                     Dubai is a popular tourist destination known for its luxurious attractions, modern architecture, and vibrant culture.</p>
@@ -106,13 +148,13 @@
             </div>
     
             <div class="destination-card">
-                <img src="turkey.jpg" alt="Turkey">
+                <img src="image/turkey.jpg" alt="Turkey">
                 <h3>Turkey</h3>
                 <p>Turkey is a country known for its rich history, diverse culture, stunning landscapes, and historical landmarks.</p>
                 <p class="price">2000</p>
             </div>
             <div class="destination-card">
-                <img src="paris.jpg" alt="Paris">
+                <img src="image/paris.jpg" alt="Paris">
                 <h3>Paris</h3>
                 <p>Paris, the capital city of France, is known for its iconic landmarks, rich history, and vibrant culture.</p>
                 <p class="price">$2500</p>
@@ -121,21 +163,7 @@
     </section>
 
     <section id="kontak">
-        <div class="kontak-container">
-            <div class="contact-form">
-                <h2>Contact Us</h2>
-                <form id="contactForm" onsubmit="return submitForm()">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-        
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-        
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-        
-                    <input type="submit" value="Submit">
-                </form>
+
             </div>
         </div>
     </section>
