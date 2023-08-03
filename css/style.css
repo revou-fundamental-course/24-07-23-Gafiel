@@ -302,6 +302,24 @@ img {
     background-color: #bbbbbb;
     position: relative;
   }
+  .line-container2 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 5px;
+  }
+  .line2 {
+    width: 95%;
+    margin-left: 50px;
+    height: 2px;
+    background-color: #bbbbbb;
+    position: static;
+  }
+
   /* Footer */
   .call-box {
     margin-top: 50px;
